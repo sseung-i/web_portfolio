@@ -1,0 +1,652 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+header {
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+header>h1>a {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    float: left;
+    background: url(../img/logo.png) no-repeat center center;
+    background-size: 100%;
+}
+
+header>ul {
+    margin-top: 70px;
+    float: right;
+}
+
+header>ul>li {
+    float: left;
+}
+
+header>ul>li>a {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 80px;
+    font-size: 1.7em;
+}
+
+header>ul>li>a:hover {
+    color: #ff0000;
+}
+
+header>ul>li:nth-child(2)>a {
+    color: #ff0000;
+}
+
+
+/* 상단 */
+
+#indexContent {
+    width: 100%;
+    height: 750px;
+    /* background-color: #00a088; */
+    background-image: linear-gradient(#469e89, #3075bd);
+    margin-bottom: 50px;
+}
+
+#indexContent>div {
+    position: relative;
+    width: 1000px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+#indexContent>div>h2 {
+    margin: 0 auto;
+    padding-top: 60px;
+    height: 100px;
+    font-size: 2.3em;
+    text-align: center;
+    color: #fff;
+}
+
+#indexContent>div>p {
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#indexContent>div>ul {
+    width: 160px;
+    height: 35px;
+    margin: 50px auto 20px;
+    text-align: center;
+}
+
+#indexContent>div>ul>li {
+    width: 160px;
+    display: inline;
+    float: left;
+}
+
+#indexContent>div>ul>li>a {
+    display: inline-block;
+    width: 160px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 1.5em;
+    background-color: #fff;
+    color: #00a088;
+    box-sizing: border-box;
+}
+
+
+.circle {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 960px;
+    height: 480px;
+    border-radius: 480px 480px 0 0;
+    background-color: #fff;
+    opacity: 0.3;
+}
+
+/* 상단 노트북 */
+
+.notebook {
+    margin-left: 200px;
+    width: 760px;
+    height: 488px;
+    margin-top: 45px;
+    position: relative;
+    z-index: 1;
+}
+
+.notebook>p {
+    width: 760px;
+    height: 488px;
+    background: url(../img/notebook.png) no-repeat center center;
+    background-size: 100%;
+}
+
+.noteimg {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 642px;
+    height: 360px;
+    margin: 45px 59px auto;
+    overflow: hidden;
+}
+
+.noteimg>div {
+    /* position: absolute;
+    top: 0; */
+    width: 100%;
+    cursor: pointer;
+}
+
+/* 상단 태블릿 */
+
+.tab {
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 270px;
+    height: 355px;
+    z-index: 1;
+}
+
+.tab>div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.tab>div>p {
+    width: 270px;
+    height: 355px;
+    background: url(../img/jejuinside/tab.png) no-repeat center center;
+    background-size: 100%;
+}
+
+.tabimg {
+    position: absolute;
+    width: 246px;
+    height: 330px;
+    bottom: 12px;
+    left: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tabimg>div {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* 상단 ahqkdlf */
+
+.mo {
+    position: absolute;
+    right: -10px;
+    bottom: -30px;
+    width: 118px;
+    height: 238px;
+    z-index: 1;
+}
+
+.mo>div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.mo>div>p {
+    width: 118px;
+    height: 238px;
+    background: url(../img/jejuinside/phone.png) no-repeat center center;
+    background-size: 100%;
+}
+
+.moimg {
+    position: absolute;
+    width: 104px;
+    height: 225px;
+    bottom: 7px;
+    left: 7px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.moimg>div {
+    width: 100%;
+    cursor: pointer;
+}
+
+.topqr {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+.topqr>span {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 0.5em;
+    color: #fff;
+}
+
+.topqr>img {
+    width: 100%;
+}
+
+/* 설명 */
+
+#ex {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#ex>h2 {
+    margin-top: 80px;
+    font-size: 2em;
+    color: #0a75c3;
+}
+
+#ex>p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.redfont {
+    color: #0a75c3;
+}
+
+#ex>div>a {
+    display: inline-block;
+    margin-top: 20px;
+    width: 185px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    background-color: #0a75c3;
+    color: #fff;
+}
+
+#ex>div>a:hover {
+    animation: siteview 0.5s infinite;
+}
+
+@keyframes siteview {
+    0% {opacity: 1;}
+    50% {opacity: 0.6;}
+    100% {opacity: 1;}
+}
+
+
+/* 기획 */
+
+#plan {
+    margin-top: 90px;
+    width: 100%;
+    height: 1200px;
+    /* background-color: #eee; */
+}
+
+#plan>div {
+    width: 1000px;
+    padding-top: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#plan>div>h2 {
+    font-size: 2em;
+    color: #d6264e;
+}
+
+#plan>div>ul {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+}
+
+#plan>div>ul>li:nth-child(1), #plan>div>ul>li:nth-child(3), #plan>div>ul>li:nth-child(5) {
+    width: 280px;
+    height: 100%;
+    border: 1px solid #ddd;
+}
+
+#plan>div>ul>li>div {
+    width: 100%;
+    height: 223px;
+}
+
+#plan>div>ul>li:nth-child(1)>div {
+    background: url(../img/jejuinside/wire.png) no-repeat top center;
+}
+
+#plan>div>ul>li:nth-child(3)>div {
+    background: url(../img/jejuinside/worknav.gif) no-repeat top center;
+}
+
+#plan>div>ul>li:nth-child(5)>div {
+    background: url(../img/jejuinside/posi.png) no-repeat top center;
+}
+
+#plan>div>ul>li>p {
+    width: 280px;
+    height: 80px;
+    padding: 15px;
+    line-height: 1.5em;
+}
+
+.gt {
+    width: 80px;
+    height: 280px;
+    background: url(../img/ppaeyot/gt.png) no-repeat center center ;
+}
+
+#plan>div>div {
+    width: 100%;
+}
+
+#plan>div>div>p {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin: 100px auto;
+    padding-top: 100px;
+    border-top: 3px dotted #ddd;
+    background: url(../img/jejuinside/designguide.gif) no-repeat center center;
+}
+
+#plan>div>div>p>span {
+    width: 1000px;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* 컨셉 */
+
+#concept {
+    margin-top: 90px;
+    width: 100%;
+    height: 800px;
+    background-color: #eee;
+}
+
+#concept>div {
+    width: 1000px;
+    padding-top: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#concept>div>h2 {
+    font-size: 2em;
+    color: #0a75c3;
+}
+
+#concept>div>ul {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+#concept>div>ul>li {
+    width: 33.33%;
+    padding: 0 25px;
+    border-right: 3px dotted #fff;
+}
+
+#concept>div>ul>li:last-child {
+    border: 0;
+}
+
+#concept>div>ul>li>h3 {
+    font-size: 1.5em;
+}
+
+#concept>div>ul>li>div {
+    height: 80px;
+    margin: 10px 0;
+}
+
+#concept>div>ul>li>div>img {
+    margin-top: 10px;
+}
+
+#concept>div>ul>li:nth-child(2)>div>ul {
+    padding-top: 13px;
+}
+
+#concept>div>ul>li:nth-child(2)>div>ul>li {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    margin: 0 5px;
+}
+
+#concept>div>ul>li:nth-child(2)>div>ul>li:nth-child(1) {
+    background-color: #0a75c3;
+}
+
+#concept>div>ul>li:nth-child(2)>div>ul>li:nth-child(2) {
+    background-color: #00a088;
+}
+
+#concept>div>ul>li:nth-child(2)>div>ul>li:nth-child(3) {
+    background-color: #ff7200;
+}
+
+#concept>div>ul>li:nth-child(2)>div>ul>li:nth-child(4) {
+    background-color: #727071;
+}
+
+#concept>div>ul>li:nth-child(3)>div {
+    padding-top: 10px;
+    font-family: 'Jeju Gothic','JejuGothicOTF', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+#concept>div>ul>li>p {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+
+/* 페이지 설명 */
+
+#pageInfo {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+#pageInfo>div {
+    width: 100%;
+    position: absolute;
+    top: -350px;
+}
+
+#pageInfo>div>ul {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pageInfo>div>ul>li {
+    position: relative;
+}
+
+#pageInfo>div>ul>li:nth-child(1) {
+    width: 600px;
+}
+
+#pageInfo>div>ul>li:nth-child(2) {
+    width: 270px;
+}
+
+#pageInfo>div>ul>li:nth-child(3) {
+    width: 118px;
+}
+
+#pageInfo>div>ul>li>div>h3 {
+    position: absolute;
+    border: 3px;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: #ddd;
+    border-radius: 30px 30px 0 0 ;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* 데스크탑 */
+
+.desk_pageCover {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 600px;
+    height: 385px;
+}
+
+#pageInfo>div>ul>li:nth-child(1)>div>h3 {
+    left: 196px;
+    top: -30px;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.desk_pageCover>p {
+    width: 100%;
+    height: 100%;
+    background: url(../img/jejuinside/notebook.png) no-repeat bottom center;
+    background-size: 100%;
+}
+
+.desk_pageCover>div {
+    position: absolute;
+    width: 507px;
+    height: 319px;
+    bottom: 46px;
+    left: 46px;
+    overflow: scroll;
+}
+
+.desk_pageCover>div>img {
+    width: 100%;
+}
+
+/* 태블릿 */
+
+.tab_pageCover {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 270px;
+    height: 355px;
+}
+
+#pageInfo>div>ul>li:nth-child(2)>div>h3 {
+    left: 62px;
+    top: -30px;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.tab_pageCover>p {
+    width: 100%;
+    height: 100%;
+    background: url(../img/jejuinside/tab.png) no-repeat bottom center;
+    background-size: 100%;
+}
+
+.tab_pageCover>div {
+    position: absolute;
+    width: 246px;
+    height: 330px;
+    bottom: 12px;
+    left: 12px;
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+.tab_pageCover>div>img {
+    width: 100%;
+}
+
+/* 모바입 */
+
+.mobile_qr {
+    margin: 20px auto 0;
+    width: 70px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.mobile_qr>img {
+    width: 100%;
+}
+
+.mobile_qr>span {
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.mo_pageCover {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 118px;
+    height: 238px;
+}
+
+#pageInfo>div>ul>li:nth-child(3)>div>h3 {
+    left: 21px;
+    top: -20px;
+    width: 70px;
+    height: 20px;
+    font-size: 0.8em;
+    line-height: 20px;
+}
+
+.mo_pageCover>p {
+    width: 100%;
+    height: 100%;
+    background: url(../img/jejuinside/phone.png) no-repeat bottom center;
+    background-size: 100%;
+}
+
+.mo_pageCover>div {
+    position: absolute;
+    width: 104px;
+    height: 225px;
+    bottom: 7px;
+    left: 7px;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.mo_pageCover>div>img {
+    width: 100%;
+}

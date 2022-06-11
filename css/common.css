@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    color: #727071;
+}
+
+body {
+    font-family: '나눔스퀘어','NanumSquare','Nanum Gothic','나눔 고딕','나눔고딕',sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+.hidden {
+    position: absolute;
+    left: -9999999px;
+    font-size: 0px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+#container {
+    width: 100%;
+}
+
+
+/* 풋터 */
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+    border-radius: 300px 300px 0 0 ;
+}
+
+footer>div {
+    padding: 100px 10% 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer>div>h3 {
+    font-size: 2em;
+}
+
+footer>div>ul {
+    margin-top: 30px;
+}
+
+footer>div>ul>li {
+    padding: 0 30px;
+    display: inline-block;
+    border-right: 1px solid #666;
+}
+
+footer>div>ul>li:nth-child(3) {
+    border: 0px;
+}
+
+footer>div>p {
+    margin-top: 30px;
+    font-size: 0.8em;
+}
