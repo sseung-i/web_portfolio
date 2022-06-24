@@ -1,444 +1,433 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
 header {
-    width: 1000px;
-    height: 150px;
-    margin: 0 auto;
+  width: 1000px;
+  height: 150px;
+  margin: 0 auto;
 }
 
-header>h1>a {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    float: left;
-    background: url(../img/logo.png) no-repeat center center;
-    background-size: 100%;
+header > h1 > a {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  float: left;
+  background: url(../img/logo.png) no-repeat center center;
+  background-size: 100%;
 }
 
-header>ul {
-    margin-top: 70px;
-    float: right;
+header > ul {
+  margin-top: 70px;
+  float: right;
 }
 
-header>ul>li {
-    float: left;
+header > ul > li {
+  float: left;
 }
 
-header>ul>li>a {
-    display: inline-block;
-    margin-left: 40px;
-    line-height: 80px;
-    font-size: 1.7em;
+header > ul > li > a {
+  display: inline-block;
+  margin-left: 40px;
+  line-height: 80px;
+  font-size: 1.7em;
 }
 
-header>ul>li>a:hover {
-    color: #ff0000;
+header > ul > li > a:hover {
+  color: #ff0000;
 }
 
-header>ul>li:nth-child(1)>a {
-    color: #ff0000;
+header > ul > li:nth-child(1) > a {
+  color: #ff0000;
 }
-
 
 /* 상단 */
 
 #indexContent {
-    width: 100%;
-    height: 750px;
-    /* background-color: #ff839a; */
-    background-image: linear-gradient(#ff839a, #fce8bb);
-    margin-bottom: 50px;
+  width: 100%;
+  height: 750px;
+  /* background-color: #ff839a; */
+  background-image: linear-gradient(#ff839a, #fce8bb);
+  margin-bottom: 50px;
 }
 
-#indexContent>div {
-    position: relative;
-    width: 1000px;
-    height: 750px;
-    margin: 0 auto;
+#indexContent > div {
+  position: relative;
+  width: 1000px;
+  height: 750px;
+  margin: 0 auto;
 }
 
-#indexContent>div>h2 {
-    margin: 0 auto;
-    padding-top: 60px;
-    height: 100px;
-    font-size: 2.3em;
-    text-align: center;
-    color: #fff;
+#indexContent > div > h2 {
+  margin: 0 auto;
+  padding-top: 60px;
+  height: 100px;
+  font-size: 2.3em;
+  text-align: center;
+  color: #fff;
 }
 
-#indexContent>div>p {
-    margin: 0 auto;
-    padding-top: 20px;
-    height: 50px;
-    text-align: center;
-    color: #fff;
+#indexContent > div > p {
+  margin: 0 auto;
+  padding-top: 20px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
 }
 
-#indexContent>div>ul {
-    width: 350px;
-    height: 35px;
-    margin: 50px auto 20px;
-    text-align: center;
+#indexContent > div > ul {
+  display: flex;
+  width: 520px;
+  justify-content: center;
+  height: 35px;
+  margin: 50px auto 20px;
+  text-align: center;
 }
 
-#indexContent>div>ul>li {
-    width: 160px;
-    display: inline;
-    float: left;
+#indexContent > div > ul > li:nth-child(2),
+li:nth-child(3) {
+  opacity: 0.3;
 }
 
-#indexContent>div>ul>li:nth-child(1) {
-    margin-right: 30px;
+#indexContent > div > ul > li:nth-child(2):hover,
+li:nth-child(3):hover {
+  opacity: 1;
 }
 
-#indexContent>div>ul>li:nth-child(2) {
-    opacity: 0.3;
+#indexContent > div > ul > li > a {
+  display: inline-block;
+  width: 160px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 1.5em;
+  border: 1px solid #fff;
+  color: #fff;
+  box-sizing: border-box;
 }
 
-#indexContent>div>ul>li:nth-child(2):hover {
-    opacity: 1;
-}
-
-#indexContent>div>ul>li>a {
-    display: inline-block;
-    width: 160px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 1.5em;
-    border: 1px solid #fff;
-    color: #fff;
-    box-sizing: border-box;
-}
-
-#indexContent>div>ul>li:nth-child(1)>a {
-    background-color: #fff;
-    color: #ff839a;
+#indexContent > div > ul > li:nth-child(1) > a {
+  background-color: #fff;
+  color: #ff839a;
 }
 
 .circle {
-    position: absolute;
-    bottom: 0;
-    left: 20px;
-    width: 960px;
-    height: 480px;
-    border-radius: 480px 480px 0 0;
-    background-color: #fff;
-    opacity: 0.3;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 960px;
+  height: 480px;
+  border-radius: 480px 480px 0 0;
+  background-color: #fff;
+  opacity: 0.3;
 }
-
 
 .notebook {
-    margin: 0 auto;
-    width: 760px;
-    height: 488px;
-    margin-top: 45px;
-    position: relative;
-    z-index: 1;
+  margin: 0 auto;
+  width: 760px;
+  height: 488px;
+  margin-top: 45px;
+  position: relative;
+  z-index: 1;
 }
 
-.notebook>p {
-    width: 760px;
-    height: 488px;
-    background: url(../img/notebook.png) no-repeat center center;
-    background-size: 100%;
+.notebook > p {
+  width: 760px;
+  height: 488px;
+  background: url(../img/notebook.png) no-repeat center center;
+  background-size: 100%;
 }
 
 .img {
-    position: absolute;
-    top: 74px;
-    left: 59px;
-    width: 642px;
-    height: 394px;
-    overflow: hidden;
+  position: absolute;
+  top: 74px;
+  left: 59px;
+  width: 642px;
+  height: 394px;
+  overflow: hidden;
 }
 
-.img>div {
-    width: 100%;
-    cursor: pointer;
+.img > div {
+  width: 100%;
+  cursor: pointer;
 }
-
 
 /* 무비고 설명 */
 
 #ex {
-    width: 1000px;
-    margin: 0 auto;
-    text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-#ex>h2 {
-    margin-top: 80px;
-    font-size: 2em;
-    color: #d6264e;
+#ex > h2 {
+  margin-top: 80px;
+  font-size: 2em;
+  color: #d6264e;
 }
 
-#ex>p {
-    margin-top: 20px;
-    font-size: 1.2em;
-    line-height: 1.5em;
+#ex > p {
+  margin-top: 20px;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
 .redfont {
-    color: #d6264e;
+  color: #d6264e;
 }
 
-#ex>div>a {
-    display: inline-block;
-    margin-top: 20px;
-    width: 185px;
-    height: 36px;
-    line-height: 36px;
-    border-radius: 18px;
-    background-color: #d6264e;
-    color: #fff;
+#ex > div > a {
+  display: inline-block;
+  margin-top: 20px;
+  width: 185px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 18px;
+  background-color: #d6264e;
+  color: #fff;
 }
 
-#ex>div>a:hover {
-    animation: siteview 0.5s infinite;
+#ex > div > a:hover {
+  animation: siteview 0.5s infinite;
 }
 
 @keyframes siteview {
-    0% {opacity: 1;}
-    50% {opacity: 0.6;}
-    100% {opacity: 1;}
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
 
 /* 기획 */
 
 #plan {
-    margin-top: 90px;
-    width: 100%;
-    height: 1800px;
-    /* background-color: #eee; */
+  margin-top: 90px;
+  width: 100%;
+  height: 1800px;
+  /* background-color: #eee; */
 }
 
-#plan>div {
-    width: 1000px;
-    padding-top: 60px;
-    margin: 0 auto;
-    text-align: center;
+#plan > div {
+  width: 1000px;
+  padding-top: 60px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-#plan>div>h2 {
-    font-size: 2em;
-    color: #d6264e;
+#plan > div > h2 {
+  font-size: 2em;
+  color: #d6264e;
 }
 
-#plan>div>ul {
-    width: 100%;
-    height: 280px;
-    margin-top: 30px;
-    display: flex;
+#plan > div > ul {
+  width: 100%;
+  height: 280px;
+  margin-top: 30px;
+  display: flex;
 }
 
-#plan>div>ul>li:nth-child(1), #plan>div>ul>li:nth-child(3), #plan>div>ul>li:nth-child(5) {
-    width: 280px;
-    height: 100%;
-    border: 1px solid #ddd;
+#plan > div > ul > li:nth-child(1),
+#plan > div > ul > li:nth-child(3),
+#plan > div > ul > li:nth-child(5) {
+  width: 280px;
+  height: 100%;
+  border: 1px solid #ddd;
 }
 
-#plan>div>ul>li>div {
-    width: 100%;
-    height: 200px;
+#plan > div > ul > li > div {
+  width: 100%;
+  height: 200px;
 }
 
-#plan>div>ul>li:nth-child(1)>div {
-    background: url(../img/ppaeyot/plan1.png) no-repeat top center;
+#plan > div > ul > li:nth-child(1) > div {
+  background: url(../img/ppaeyot/plan1.png) no-repeat top center;
 }
 
-#plan>div>ul>li:nth-child(3)>div {
-    background: url(../img/ppaeyot/plan2.png) no-repeat top center;
+#plan > div > ul > li:nth-child(3) > div {
+  background: url(../img/ppaeyot/plan2.png) no-repeat top center;
 }
 
-#plan>div>ul>li:nth-child(5)>div {
-    background: url(../img/ppaeyot/plan3.png) no-repeat top center;
+#plan > div > ul > li:nth-child(5) > div {
+  background: url(../img/ppaeyot/plan3.png) no-repeat top center;
 }
 
-#plan>div>ul>li>p {
-    width: 280px;
-    height: 80px;
-    padding: 15px;
-    line-height: 1.5em;
+#plan > div > ul > li > p {
+  width: 280px;
+  height: 80px;
+  padding: 15px;
+  line-height: 1.5em;
 }
 
 .gt {
-    width: 80px;
-    height: 280px;
-    background: url(../img/ppaeyot/gt.png) no-repeat center center ;
+  width: 80px;
+  height: 280px;
+  background: url(../img/ppaeyot/gt.png) no-repeat center center;
 }
 
 .plan4 {
-    width: 1000px;
-    height: 350px;
-    margin: 50px auto;
-    background: url(../img/ppaeyot/plan4.png) no-repeat center center;
-    background-size: 70%;
-    position: relative;
-    border-top: 3px dotted #ddd;
-
+  width: 1000px;
+  height: 350px;
+  margin: 50px auto;
+  background: url(../img/ppaeyot/plan4.png) no-repeat center center;
+  background-size: 70%;
+  position: relative;
+  border-top: 3px dotted #ddd;
 }
 
 .plan5 {
-    width: 1000px;
-    height: 900px;
-    margin: 50px auto;
-    background: url(../img/ppaeyot/plan5.gif) no-repeat center center;
-    background-size: 70%;
-    position: relative;
-    border-top: 3px dotted #ddd;
+  width: 1000px;
+  height: 900px;
+  margin: 50px auto;
+  background: url(../img/ppaeyot/plan5.gif) no-repeat center center;
+  background-size: 70%;
+  position: relative;
+  border-top: 3px dotted #ddd;
 }
 
-#plan>div>div>p {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+#plan > div > div > p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
-
-
-
 
 /* 컨셉 */
 
 #concept {
-    margin-top: 90px;
-    width: 100%;
-    height: 800px;
-    background-color: #eee;
+  margin-top: 90px;
+  width: 100%;
+  height: 800px;
+  background-color: #eee;
 }
 
-#concept>div {
-    width: 1000px;
-    padding-top: 60px;
-    margin: 0 auto;
-    text-align: center;
+#concept > div {
+  width: 1000px;
+  padding-top: 60px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-#concept>div>h2 {
-    font-size: 2em;
-    color: #d6264e;
+#concept > div > h2 {
+  font-size: 2em;
+  color: #d6264e;
 }
 
-
-#concept>div>ul {
-    width: 100%;
-    display: flex;
-    margin-top: 50px;
+#concept > div > ul {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
 }
 
-#concept>div>ul>li {
-    width: 33.33%;
-    padding: 0 25px;
-    border-right: 3px dotted #fff;
+#concept > div > ul > li {
+  width: 33.33%;
+  padding: 0 25px;
+  border-right: 3px dotted #fff;
 }
 
-#concept>div>ul>li:last-child {
-    border: 0;
+#concept > div > ul > li:last-child {
+  border: 0;
 }
 
-#concept>div>ul>li>h3 {
-    font-size: 1.5em;
+#concept > div > ul > li > h3 {
+  font-size: 1.5em;
 }
 
-#concept>div>ul>li>div {
-    height: 80px;
-    margin: 10px 0;
+#concept > div > ul > li > div {
+  height: 80px;
+  margin: 10px 0;
 }
 
-#concept>div>ul>li:nth-child(2)>div>ul {
-    padding-top: 13px;
+#concept > div > ul > li:nth-child(2) > div > ul {
+  padding-top: 13px;
 }
 
-#concept>div>ul>li:nth-child(2)>div>ul>li {
-    display: inline-block;
-    width: 54px;
-    height: 54px;
-    margin: 0 5px;
+#concept > div > ul > li:nth-child(2) > div > ul > li {
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  margin: 0 5px;
 }
 
-#concept>div>ul>li:nth-child(2)>div>ul>li:nth-child(1) {
-    background-color: #d6264e;
+#concept > div > ul > li:nth-child(2) > div > ul > li:nth-child(1) {
+  background-color: #d6264e;
 }
 
-#concept>div>ul>li:nth-child(2)>div>ul>li:nth-child(2) {
-    background-color: #ffe8b5;
+#concept > div > ul > li:nth-child(2) > div > ul > li:nth-child(2) {
+  background-color: #ffe8b5;
 }
 
-#concept>div>ul>li:nth-child(2)>div>ul>li:nth-child(3) {
-    background-color: #ff839a;
+#concept > div > ul > li:nth-child(2) > div > ul > li:nth-child(3) {
+  background-color: #ff839a;
 }
 
-#concept>div>ul>li:nth-child(2)>div>ul>li:nth-child(4) {
-    background-color: #1f0082;
+#concept > div > ul > li:nth-child(2) > div > ul > li:nth-child(4) {
+  background-color: #1f0082;
 }
 
-#concept>div>ul>li:nth-child(3)>div {
-    padding-top: 10px;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1.3em;
-    line-height: 1.5em;
+#concept > div > ul > li:nth-child(3) > div {
+  padding-top: 10px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
 }
 
-#concept>div>ul>li>p {
-    line-height: 1.5em;
-    text-align: justify;
+#concept > div > ul > li > p {
+  line-height: 1.5em;
+  text-align: justify;
 }
-
 
 /* 페이지 설명 */
 
 #pageInfo {
-    width: 100%;
-    height: 1000px;
-    position: relative;
+  width: 100%;
+  height: 1000px;
+  position: relative;
 }
 
-
-#pageInfo>div {
-    width: 100%;
-    position: absolute;
-    top: -350px;
+#pageInfo > div {
+  width: 100%;
+  position: absolute;
+  top: -350px;
 }
 
-#pageInfo>div>div {
-    margin-bottom: 100px;
+#pageInfo > div > div {
+  margin-bottom: 100px;
 }
 
-#pageInfo>div>div>h3 {
-    width: 200px;
-    height: 30px;
-    line-height: 30px;
-    border: 3px;
-    border-bottom: 0;
-    border-style: solid;
-    border-color: #ddd;
-    border-radius: 30px 30px 0 0 ;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #fff;
+#pageInfo > div > div > h3 {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  border: 3px;
+  border-bottom: 0;
+  border-style: solid;
+  border-color: #ddd;
+  border-radius: 30px 30px 0 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
 }
 
-#pageInfo>div>div>div {
-    width: 800px;
-    height: 480px;
-    margin: 0 auto;
-    background-color: #eee;
-    overflow: scroll;
-    border: 1px solid #ddd;
-    
+#pageInfo > div > div > div {
+  width: 800px;
+  height: 480px;
+  margin: 0 auto;
+  background-color: #eee;
+  overflow: scroll;
+  border: 1px solid #ddd;
 }
 
-
-#pageInfo>div>div>div>img {
-    width: 100%;
+#pageInfo > div > div > div > img {
+  width: 100%;
 }
 
-#pageInfo>div>div>p {
-    width: 800px;
-    margin: 20px auto 0;
-    text-align: center;
-    line-height: 1.5em;
+#pageInfo > div > div > p {
+  width: 800px;
+  margin: 20px auto 0;
+  text-align: center;
+  line-height: 1.5em;
 }
