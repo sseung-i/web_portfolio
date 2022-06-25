@@ -2,41 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
 
-header {
-  width: 1000px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-header > h1 > a {
-  width: 100px;
-  height: 100px;
-  margin-top: 30px;
-  float: left;
-  background: url(../img/logo.png) no-repeat center center;
-  background-size: 100%;
-}
-
-header > ul {
-  margin-top: 70px;
-  float: right;
-}
-
-header > ul > li {
-  float: left;
-}
-
-header > ul > li > a {
-  display: inline-block;
-  margin-left: 40px;
-  line-height: 80px;
-  font-size: 1.7em;
-}
-
-header > ul > li > a:hover {
-  color: #ff0000;
-}
-
 header > ul > li:nth-child(2) > a {
   color: #ff0000;
 }

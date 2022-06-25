@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta name="viewport" content="width=device-width, initial-sclae=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <title>최승이 포트폴리오</title>
     <link
@@ -11,18 +11,12 @@
     />
     <link href="css/common.css" rel="stylesheet" />
     <link href="css/moviego.css" rel="stylesheet" />
+    <link href="css/publishing.css" rel="stylesheet" />
     <script src="js/jquery-1.12.3.js"></script>
   </head>
   <body>
     <div id="container">
-      <header>
-        <h1><a href="index.html"></a></h1>
-        <ul>
-          <!-- <li><a href="my.html">소개</a></li> -->
-          <li><a href="index.html">퍼블리싱</a></li>
-          <li><a href="graphic.html">그 외 작업물</a></li>
-        </ul>
-      </header>
+      <header include-nav="components/nav.html"></header>
       <section id="indexContent">
         <div>
           <h2>웹사이트</h2>
@@ -130,17 +124,8 @@
                     <div class="next">&gt;</div> -->
         </div>
       </section>
-      <footer>
-        <div>
-          <h3>portfolio</h3>
-          <ul>
-            <li>최승이</li>
-            <li>010-9253-8828</li>
-            <li>mschoise@gmail.com</li>
-          </ul>
-          <p>Copyright&copy;2021 ChoiSeungI portfolio</p>
-        </div>
-      </footer>
+      <footer include-footer="components/footer.html"></footer>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
